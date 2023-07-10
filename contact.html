@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <style>
+      .cantainer
+      {
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="cantainer">
+        <form action="/" method="post">
+          <h1>Contact Me</h1> <br>
+        
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Name</label>
+          <input type="text" class="form-control" id="exampleInputPassword1" name="name" placeholder="Enter your Name">
+        </div>
+        
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Surname</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" name="surname" placeholder="Enter your Surname">
+      </div>
+      
+      
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="Enter your Email">
+        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+        <!-- </div> -->
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Enter your Password">
+        </div>
+        <button type="submit" class="btn btn-primary bg-danger">Submit</button>
+        <p id="para"></p>
+      </form>
+      
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    </body>
+    </html>
